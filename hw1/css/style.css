@@ -1,0 +1,74 @@
+/*Main Header*/
+h1 {
+    font-family: "Apple Chancery", cursive;
+    color: white;
+}
+
+/*Sub Headers*/
+h2 {
+    font-family: sans-serif;
+}
+
+/*Table with padding and solid uniform black borders */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+/*background color for website*/
+body {
+    background-color: bisque;
+}
+
+/*top paragraph*/
+.main-para {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/*header banner*/
+.header {
+    padding: 60px;
+    text-align: center;
+    background: peru;
+    color: white;
+    font-size: 25px;
+}
+
+/*navigation links in header*/
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+/*underline navigation links when hovering over it*/
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* image gallery top div, for uniform images */
+.gallery {
+    display: flex;
+    gap: 1rem; /* spacing between images */
+    justify-content: center;
+    flex-wrap: wrap; /* allows wrapping on smaller screens */
+}
+
+/* basic div card that lives inside gallery*/
+.image-card {
+    text-align: center;
+    max-width: 200px; /*don't allow pictures to be too big*/
+}
+
+/* image card's image*/
+.image-card img {
+    width: 100%;
+}
+
+/* title for an image */
+.image-title {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
